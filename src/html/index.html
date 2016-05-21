@@ -2,10 +2,242 @@
 <html>
 <head>
   <title>TIY Project</title>
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <div class="app"></div>
+  <div class="app">
+  	
+  <header>
+  	<h1>Daniel Revo |  Front-end Developer</h1>
+  	<div class="contact-icons">
+  		<a href="https://github.com/beware-of-leopard" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+  		<a href="mailto:DanielRevo08@gmail.com"><i class="fa fa-envelope" aria-hidden="true" title="danielrevo08@gmail.com"></i></a>
+  		<a href="tel:+1-770-715-7802"><i class="fa fa-phone" aria-hidden="true" title="770-715-7802"></i></a>
+  		<a href="https://www.linkedin.com/in/daniel-revo-17ab7b4b?trk" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+
+	</div>
+  	<nav>
+  		<ul>
+  			
+	  		<a href="#work"><li>The Work</li></a>
+	  		<a href="#skills"><li>The Skills</li></a>
+	  		<a href="#objective"><li>The Why</li></a>
+	  		<a href="#contact"><li>Get in Touch</li></a>
+
+  		</ul>
+  	</nav>
+  </header>
+  <main>
+  	<div class="work-wrapper">
+	  	<h2 class="work-title">The Work</h2>
+	  	<div class="work" id="work">
+	  		
+		  	<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+				<div class="flipper">
+					<div class="front">
+						<!-- front content -->
+						<img src="../images/inside-the-park.png" alt="inside-the-park"/>
+					</div>
+					<div class="back">
+						<!-- back content -->
+						<h2>Inside the Park</h2>
+						<div class="card-text">
+							<h3><strong>Design the ultimate baseball road trip</strong></h3>
+							<div class="copy">
+								<p class="summary">App allows users to easily plan a multi-city road trip seeing as many games in as many parks as they want. Results produce an itinerary with games selected, but also a map of the route and localized travel data (hotels, attractions, food, plane tickets, and car rentals) they can use to intelligently plan their trip.</p>
+
+								<p class="tech">Technologies used: Javascript (ES6), React, React router, ajax, API integration (SeatGeek, Google Maps, and Skyscanner)</p>
+								<div class="btn-wrapper">
+									<a href="https://github.com/insidethepark/frontend" target="_blank" class="btn-work">GitHub</a>
+									<a href="http://tiy-2016q1-danielrevo-inside-the-park.surge.sh/" target="_blank" class="btn-work">See it live</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> 
+			<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+				<div class="flipper">
+					<div class="front">
+						<!-- front content -->
+						<img src="../images/bongo.png" alt="fill murray"/>
+					</div>
+					<div class="back">
+						<!-- back content -->
+
+
+						<h2>Bongo</h2>
+						<div class="card-text">
+							<h3><strong>A geo guessing game</strong></h3>
+							<div class="copy">
+								<p class="summary">Timed guessing game where users are shown images of landmarks from across the globe and attempt to guess the country of origin of each one. Users can play the game, or upload their own images to add to the collection of landmarks.</p>
+
+								<p class="tech">Technologies used: Javascript (ES6), React, lodash, js-cookie</p>
+								<div class="btn-wrapper">
+									<a href="https://github.com/beware-of-leopard" target="_blank" class="btn-work">GitHub</a>
+									<a href="http://tiy-2016q1-danielrevo-team-dos-frontend.surge.sh/" target="_blank" class="btn-work">See it live</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+				<div class="flipper">
+					<div class="front">
+						<!-- front content -->
+						<img src="../images/votr.png" alt="fill murray"/>
+					</div>
+					<div class="back">
+						<!-- back content -->
+						<h2>Votr (hackathon app)</h2> 
+						<div class="card-text">
+							<h3><strong>Test case of a real-time online polling-place</strong></h3>
+							<div class="copy">
+								<p class="summary">Votes are cast securely and displayed live in a dashboard using the Chart.js library as they come in.</p>
+
+								<p class="tech">Technologies used: Javascript (ES6), React, React router, chart.js, js-cookie</p>
+								<div class="btn-wrapper">
+									<a href="https://github.com/TeamFacepalm/js-react" target="_blank" class="btn-work">GitHub</a>
+									<a href="http://tiy-2016q1-danielrevo-realtime-voting-app.surge.sh" target="_blank" class="btn-work">See it live</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+				<div class="flipper">
+					<div class="front">
+						<!-- front content -->
+						<img src="../images/pianocreations.png" alt="fill murray"/>
+					</div>
+					<div class="back">
+						<!-- back content -->
+
+						<h2>Piano Creations</h2> 
+						<div class="card-text">
+							<h3><strong>Full redesign of client site</strong></h3>
+							<div class="copy">
+								<p class="summary">PianoCreations.com is the home of an extremely talented pianist named Alex-Zsolt. His site hadn't been updated in years however, and it reflected poorly on his brand as a result.
+								
+
+								The redesign modernized the site in many ways:
+								<ul>
+									
+									<li>The Information architecture is no longer a labyrinth. The new site is people and SEO friendly. The major tasks (booking Alex for concerts and buying his music) are easier to find and accomplish.</li>
+									<li>Major editing of content was necessary. I eliminated passive and superfluous copy, most of which was driven by what the client wished the user to know, not what the user was actually seeking.</li>
+
+								</ul>
+								
+								
+								
+								</p>
+
+								<p class="tech">Technologies used: WordPress, CSS, WooCommerce</p>
+								<div class="btn-wrapper">
+									<a href="https://github.com/beware-of-leopard" target="_blank" class="btn-work">See it live</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+				<div class="flipper">
+					<div class="front">
+						<!-- front content -->
+						<img src="../images/spark.png" alt="fill murray"/>
+					</div>
+					<div class="back">
+						<!-- back content -->
+						<h2>Spark Women's Conference</h2> 
+						<div class="card-text">
+							<h3><strong>Freelance Information Architecture</strong></h3>
+							<div class="copy">
+								<p class="summary">
+Overhauled the information architecture of the site. The site didn't have an overwhelming amount of content, but it was buried in deep drop-down menus that users found difficult to navigate. The hierarchy of information within these drop-downs seemed random and the story was told out of order.</p>
+
+								<p class="tech">Techniques used: Tree Tested the IA before and after with real users to ensure the new structure provided the best experience.</p>
+								<div class="btn-wrapper">
+									<a href="https://github.com/beware-of-leopard" target="_blank" class="btn-work">See it live</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a class="btn">See the Resume (PDF)</a>
+	</div>
+	<div id="skills" class="skills">
+		
+			
+			<ul>
+				<h2>Skills</h2>
+				<li>-Javascript (ES5 and ES6)</li>
+				<li>-React (including React Router, flux, redux)</li>
+				<li>-Recursion</li>
+				<li>-Object Oriented Programming</li>
+				<li>-Cookies handling using js-cookie</li>
+				<li>-jQuery</li>
+				<li>-Ajax</li>
+				<li>-JSON</li>
+				<li>-API integration (experience with Google Maps, SeatGeek, Skyscanner, SoundCloud)</li>
+				<li>-Git &amp; GitHub</li>
+				<li>-Libraries: Moment.js, Lodash, Chart.js</li>
+				<li>-CSS (flexbox, responsive design, Sass)</li>
+				<li>-WordPress</li>
+				<li>-Google Analytics</li>
+
+			</ul>
+			
+			<ul>
+				<h2>Skills I'm Working On</h2>
+				<li>-Angular</li>
+				<li>-Cycle</li>
+				<li>-Backend language (likely Node but this may depend on my next job)</li>
+				<li>-Web Sockets</li>
+
+			</ul>
+	</div>
+	<div id="objective" class="objective">
+		<div>
+			<h2>Objective</h2>
+
+			<blockquote>"Programs should be written for humans to read, and only incidentally for machines to execute."</blockquote><cite>Structure and Interpretation of Computer Programs</cite>
+
+			<div class="objectives">
+				<p>I write code for people.</p>
+				<p>I write for the developer that has to read my code six months from now.</p>
+				<p>I write for the user.</p>
+				<p>I write often.</p> 
+				<p>I write the best code I can, all the while knowing that in six months, I hope to be a little embarrased by it.</p>
+			</div>
+
+			<h4 class="objective-tag">Write. Learn. Repeat.</h4>
+		</div>
+
+	</div>
+	<div id="contact" class="contact">
+		<h2>Get in Touch</h2>
+
+		<p>I'm currently looking for a front-end position in the Atlanta area so if you'd like to talk about that, or anything else, please feel free to contact me below.
+		<div class="contact-icons">
+  		<a href="https://github.com/beware-of-leopard" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github </a>
+  		<a href="mailto:DanielRevo08@gmail.com"><i class="fa fa-envelope" aria-hidden="true" title="danielrevo08@gmail.com"></i> DanielRevo08@gmail.com </a>
+  		<a href="tel:+1-770-715-7802"><i class="fa fa-phone" aria-hidden="true" title="770-715-7802"></i> 770-715-7802 </a>
+  		<a href="https://www.linkedin.com/in/daniel-revo-17ab7b4b?trk" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn </a>
+	</div>
+
+	
+	</div>
+  </main>
+  <footer>&copy; <span id="current-year"></span> Daniel Revo</footer>
+
+  </div>
   <script src="js/bundle.js"></script>
 </body>
 </html>
