@@ -188,6 +188,17 @@ header{
 		margin-bottom: 10px;
 
 	}
+	ul{
+
+		h4{
+
+			font-size: 1.5em;
+			margin-top: 15px;
+			color: lighten($black, 70%);
+
+		}
+
+	}
 
 }
 
@@ -300,6 +311,7 @@ footer{
 
 /* hide back of pane during swap */
 .front, .back {
+	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 
 	position: absolute;
@@ -391,3 +403,24 @@ footer{
 	// }
 
 } 
+
+
+@media (max-width: 500px){
+
+	.avatar{
+
+		width: 100%;
+		height: initial;
+
+	}
+	.bio div{
+
+			text-align: center;
+
+		}
+
+
+}
+
+
+
